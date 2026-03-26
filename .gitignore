@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# AI/ML
+data/
+*.h5
+*.pth
+*.pkl
+*.weights
