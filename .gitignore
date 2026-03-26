@@ -9,7 +9,12 @@ venv/
 .ipynb_checkpoints
 
 # AI/ML
-data/
+# Chặn toàn bộ nội dung trong data/
+data/*
+
+# Nhưng KHÔNG chặn file .gitkeep
+!data/.gitkeep
+
 *.h5
 *.pth
 *.pkl
